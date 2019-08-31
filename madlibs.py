@@ -1,9 +1,5 @@
 # python3 madlibs.py
-"""
-algorithm:
-first defining variables and then allowing for user input to create a storyline
-"""
-
+print("A day at the Zoo Mad Libs")
 
 adjective = input("Type an adjective")
 noun = input("Type a noun")
