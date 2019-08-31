@@ -1,2 +1,2 @@
 # python3 madlibs.py
-print("lauren")
+print("lauren---a brand")
