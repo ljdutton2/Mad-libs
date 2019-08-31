@@ -15,7 +15,7 @@ noun_3 = input("Type another noun")
 adjective_3 = input("Yype another adjective")
 verb_2 = input("Type another verb")
 adverb_2 = input("Type another adverb")
-verb_past_2 = input("Type another past")
+verb_past_2 = input("Type another past tense verb")
 adjective_4 = input("Type one last adjective")
 
 print("""Today I went to the zoo. I saw a {} {} jumping up and down in its tree.
