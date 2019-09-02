@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="env">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <meta http-equiv="X-UA-compatible" content="ie=edge">
+  <link rel="stylesheet" href="../aa/style.css">
+  <title> Mad libs </title>
+
+  </head>
+
+  <body>
+  <div class="container">
+  <form action="/submit" method="POST">
+  </form>
+  <input
+  type="text"
+  name="part of speech"
+  placeholder="type here"
+  />
+  <div class="form group">
+  <select name="adjective"
+  <option value="">Choose adverb</option>
+  </select>
+</div>
+</form
+</div>
+ </body>
+</html>
