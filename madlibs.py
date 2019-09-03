@@ -11,7 +11,7 @@ get_title(name)
 
 #attempting to handle improper user input
 def user_input(prompt):
-    user_input = input(prompt)
+
 
     while True:
        user_input = input(prompt)
@@ -19,6 +19,12 @@ def user_input(prompt):
     else:
        print("Please enter text")
 
+
+def textverification(input):
+    if input.isalpha():
+        return True
+    else:
+        return false
 
 
 
