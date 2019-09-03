@@ -9,12 +9,18 @@ def get_title(name):
 get_title(name)
 
 
-
+#attempting to handle improper user input
 def user_input(prompt):
     user_input = input(prompt)
-    if user_input == "":
-        print ("please type a word")
-    return user_input
+
+    while True:
+       user_input = input(prompt)
+       return user_input
+    else:
+       print("Please enter text")
+
+
+
 
 
 adjective = user_input("Type an adjective")
